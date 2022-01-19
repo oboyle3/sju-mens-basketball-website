@@ -1,0 +1,50 @@
+body {
+    background-color: lightskyblue;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(199, 46, 123)
+  }
+  h2 {
+    color:rgb(14, 12, 8);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+  .tinyPicture {
+    height: 60px;
+    border-radius: 10px;
+}
+.card1 { 
+    width: 200px;
+    height: 200px;
+    border: 2px solid #F0FFFF;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-top: 10px;
+    font-family: "Trebuchet MS", sans-serif;
+    margin-left: auto;
+margin-right: auto;
+}
+.card1:hover {
+    border-color: #10b45a;
+}
+.cardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+nav ul li{
+  list-style-type: none;
+  display: inline;
+  margin-right: 20px;
+  margin-left: 20px;
+
+  
+}
+nav ul {
+  background-color: tomato;
+  margin: 0 auto;
+    text-align: center;
+}
+
